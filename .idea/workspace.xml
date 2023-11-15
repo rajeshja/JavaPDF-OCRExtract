@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63734494-0df4-474b-80d4-83b4b02c6ea7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rja/ocr/ExtractTextFromImages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rja/ocr/ExtractTextFromPDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rja/ocr/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rja/ocr/PDFImageExtractor.java" afterDir="false" />
+    <list default="true" id="63734494-0df4-474b-80d4-83b4b02c6ea7" name="Changes" comment="Initial version of code to extract text from PDFs. The code does not recognize columns in the image or section headings.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rja/ocr/ExtractTextFromImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rja/ocr/ExtractTextFromImages.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,25 +29,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/opencv/4.7.0-1.5.9/b09194e8ae0f8a06945708f408afae01ab42b114/opencv-4.7.0-1.5.9-sources.jar!/org/bytedeco/opencv/opencv_imgproc/AbstractCvHistogram.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Y6zgq7BwXA2cTwZ4SD2G5kjWfn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ExtractTextFromImages">
     <configuration name="ExtractTextFromImages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rja.ocr.ExtractTextFromImages" />
       <module name="JavaPDF-OCRExtract.main" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=C:/software/opencv-4.7.0/opencv/build/java/x64" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="rja.ocr.*" />
@@ -109,6 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ExtractTextFromImages" />
+      <item itemvalue="Application.ExtractTextFromPDF" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.PDFImageExtractor" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExtractTextFromImages" />
@@ -127,6 +125,19 @@
       <option name="presentableId" value="Default" />
       <updated>1699860933161</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial version of code to extract text from PDFs. The code does not recognize columns in the image or section headings.">
+      <option name="closed" value="true" />
+      <created>1699866039246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699866039247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial version of code to extract text from PDFs. The code does not recognize columns in the image or section headings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial version of code to extract text from PDFs. The code does not recognize columns in the image or section headings." />
   </component>
 </project>
